@@ -134,11 +134,11 @@ public class BirdGame extends JPanel{
                         score++;
                     }
                     //监测是否碰撞
-                   /* if(bird.hit(ground) || bird.hit(column1) || bird.hit(column2))
+                    if(bird.hit(ground) || bird.hit(column1) || bird.hit(column2))
                     {
                         state = GAME_OVER;
                     }
-                    break;*/
+                    break;
             }
             repaint();
             Thread.sleep(1000/60);
